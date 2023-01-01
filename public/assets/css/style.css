@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    box-sizing: border-box;
+
+}
+
+
+header .contact{
+    right: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    
+}
+
+header .contact a{
+    text-decoration: none;
+    margin: 10px;
+    
+
+}
+
+header .contact div{
+    float: right;
+    margin: 10px;
+}
+
+.logo{
+    left: 10px;
+
+}
+.logo img{
+    width: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    position: relative;
+    border-top: 1px solid blue;
+  
+    flex-direction: column;
+}
+
+.top{
+    background-image: url(../imgs/Princess-Tower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1040px;
+    margin: 0 auto;
+}
